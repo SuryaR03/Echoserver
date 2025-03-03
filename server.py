@@ -16,7 +16,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     try:
         conn, addr = s.accept()
     except Exception as e:
-        print(f"Error accepting connection: {e}")
+        print(f"Error accepting  connection: {e}")
         exit()
 
     with conn:
